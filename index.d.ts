@@ -132,6 +132,6 @@ interface Organiser {
 /*
  * MyVatsimEventsResponse https://my.vatsim.net/api/v1/events/all
  */
-export default interface MyVatsimEventsResponse {
+export interface MyVatsimEventsResponse {
   data: VatsimEvent[];
 }

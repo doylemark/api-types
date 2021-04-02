@@ -15,7 +15,7 @@ export interface VatsimController {
 export type VatsimAtis = Omit<VatsimController, "name" | "visual_range" | "text_atis"> & {
   name: null;
   visual_range: null;
-  atis_code: "F";
+  atis_code: string;
   text_atis: string[];
 }
 

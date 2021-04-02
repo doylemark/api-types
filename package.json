@@ -1,0 +1,7 @@
+{
+  "name": "@vatsim/api-types",
+  "version": "1.0.0",
+  "description": "TypeScript types for VATSIM datafeed v3",
+  "author": "Mark Doyle",
+  "license": "MIT"
+}

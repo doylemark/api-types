@@ -93,7 +93,7 @@ export default interface ApiResponse {
   general: VatsimGeneral;
   pilots: VatsimPilot[];
   controllers: VatsimController[];
-  atis: VatsimController[];
+  atis: VatsimAtis[];
   servers: VatsimServer[];
   prefiles: VatsimPrefile[];
   facilities: VatsimLevel[];
